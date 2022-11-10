@@ -4,15 +4,29 @@
     img{
         width: 400px;
     }
+    body{
+        background-image: url(https://picsum.photos/id/23/1500);
+         }
     #thirdDiv{
         height: 600px;
         width: 500px;
         background: black;
         padding: 50px;
         border: thick double ghostwhite;
+      
+       
     }
     #spanId{
         font-size: 18px;
         margin: 50px;
+    }
+    .divClass{
+        height: 100px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+            align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
     }
     
